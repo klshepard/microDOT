@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/home/krenehan/Documents/fsl/Surface_Rendering/Q1-Q6_R440.L.midthickness.32k_fs_LR.surf.gii:
+/NRG/BlueArc/nrgpackages/tools/hcp-pipeline-tools/global/binaries/caret7/bin_rh_linux64/../exe_rh_linux64/wb_command -surface-resample /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1396060669_100307/STRUCTURAL//100307/MNINonLinear/Native/100307.L.midthickness.native.surf.gii /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1396060669_100307/STRUCTURAL//100307/MNINonLinear/Native/100307.L.sphere.MSMSulc.native.surf.gii /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1396060669_100307/STRUCTURAL//100307/MNINonLinear/fsaverage_LR32k/100307.L.sphere.32k_fs_LR.surf.gii BARYCENTRIC /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/1396060669_100307/STRUCTURAL//100307/MNINonLinear/fsaverage_LR32k/100307.L.midthickness.32k_fs_LR.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.15.2
+Qt Runtime Version: 5.15.3
+Commit: unknown
+Commit Date: unknown
+Compiled with OpenMP: YES
+Compiler: c++ (/usr/bin)
+Compiler Version: 11.2.0
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -volume-to-surface-mapping /home/krenehan/Documents/fsl/surface_dilation/hand_zstat3_2T2_MNI_masked_neg_threshold.nii.gz /home/krenehan/Documents/fsl/Surface_Rendering/Q1-Q6_R440.L.midthickness.32k_fs_LR.surf.gii /home/krenehan/Documents/fsl/surface_dilation/hand_zstat3_2T2_NEG.func.gii -enclosing]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/home/krenehan/Documents/fsl/surface_dilation]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[ enclosing voxel]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3H2sT2UcAPDLVJJLNEpWpJdpUeRl6+3GkpdGf1hjJVGsTKmu1tay5SUv3dvyUspbxCYql/JWCM+ztVQkKV1hLspmKZOytVjUOXXvZJfuvVzcfP74bOc8z/P9fp/nnN92fjvn9zsZGRlDMv7SfcWYkPHPNgAAAAAAAAAAAAAAAAAAAAAAAACcKq1a56TvwzvcdFgodKyx13TIjDWnXJ5a89Ut8etuh8PQDrVjn/PzjvtOvRenDPHOvXLwTPs3Q3L+Hr1sariu/aLU0WOGXzs9JFp2WR6GvPFb6vY2leMX9/4e9myff0ael43dp4dE7rA5qf8a/+WYmWHuK5tC3q6fz8j1HK0ka5q85u8xHQ5sD4nTPecTtXNwDImefSZV+LXUqZwbEqd7HhSvol9vKvr8K4JFK47/nQUAAADg/27fA++Gftn1Yu/rD4XN8xrHhgszYkni2l3YO+bldov354+K+Uuz46aPx5coDgAAAADgbDP77aHh8dZbQ9/QKCbKmmdx86EhcVelvalVD/aPB34Ynlo947l45frJJc69pP6KkHNVrZg40XxJrsJ8S77rkao5cFJs1GJaqqT3jzt9Ojr9PV/dA21j3DEqtTprauxw8eup0h6vPbteiInCHGWJzx7wUqq0sYnkPnpZ4krrobELQpPdx/7Px9FjS7T2nTtDVsuqx51/tZGV4gUHr46HqjZIHa//6L6Rl1waB+3oGCcU3Bmzzr0xlbS36d0sJt7ZNiDm1rj7X2293m8cH15eO966oGuqyWOd4qyFVdLnG8v6XnFKjjUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAULF80CovJE73PAAAAAA4OToXTAiJU1Wv3XkLQiKpeUXBiHKtO39ATkgsW7U/Vd5re3lzTpi7d3eY12VtuHrlnLD/tSHlUjOpU7tSflpnWv2h5VKj4Yi9IdGxXt14w+LqsXKV/LDnnLEnrdazWzaHxOINmfHztTVjTrOfTlrup2d/FPa99kn4ZX2Nk5o7yZt4pFOVuHJWZixt/MB1tWKDziPDwNGfhazMUUVzardsSni1brVS57tp06BYv06LVMHAyvHIfIm3ai8o8bpX7uhZlKtH24I0rvGu9eHbP35MlWZe+UuzY+Lt7xvFhRu2FcWWJc9T05umOdrfMzNV2mOUl9stDmtbNx58cmWZPgOFsWWNp2S+6T+j2OM7sVfx14j7CrYUtTdcmBFv27gu/Npja1Fbsl99YkG46NDo8GGVEel26/cOp9v9suvFps1nFPuco+sTs51nAAAAAADgtPPMAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKhIegweH050zB3jxhXbn1lrVCjsG9F3cziyPZF18+zUtOfHFvUV7h/ZBgAAAAAAnJ3+BGQQINk=</Data>
+</DataArray>
+</GIFTI>
